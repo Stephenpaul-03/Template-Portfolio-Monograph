@@ -242,18 +242,60 @@ The implementation includes semantic sections and headings, alt text support for
 
 When adding content, keep these habits intact. In particular, always provide useful `imageAlt` text and avoid turning an important action into a click-only decorative element.
 
-## Deployment
+## Deployment with GitHub Pages
 
-The production output is a static site in `dist/`, so it can be deployed to any host that serves static files, including Vercel, Netlify, GitHub Pages, Cloudflare Pages, or a traditional web server.
+This project is configured for GitHub Pages using branch-based deployment. There is no GitHub Action: the production files are built locally and published to a `gh-pages` branch.
 
-Typical deployment settings are:
+The repository is named `Template-Portfolio-Monograph`, so Vite uses this production base path:
 
 ```text
-Build command: npm run build
-Publish directory: dist
+/Template-Portfolio-Monograph/
 ```
 
-If deploying under a subpath rather than the domain root, configure Vite's `base` option in `vite.config.ts` and make sure asset paths match the chosen deployment URL.
+Local development still uses `/`, so asset paths behave normally when running Vite on your computer.
+
+### One-time GitHub Pages setup
+
+1. Push the project to GitHub.
+2. Open the repository's **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `gh-pages` branch and the `/ (root)` folder.
+5. Save the setting.
+
+GitHub will publish the branch at:
+
+```text
+https://stephenpaul-03.github.io/Template-Portfolio-Monograph/
+```
+
+### Publish a new version
+
+Build the site from the current commit:
+
+```bash
+npm run lint && npm run build
+```
+
+Then publish the generated `dist/` directory to the Pages branch:
+
+```bash
+npm run deploy
+```
+
+The `deploy` script builds the site and uses [`gh-pages`](https://www.npmjs.com/package/gh-pages) to publish only the generated `dist/` directory to `gh-pages`. The source code remains on `main`, and build artifacts do not need to be committed there.
+
+If `gh-pages` does not exist yet, the first deployment creates it. After GitHub finishes publishing, changes can take a short while to appear because the internet enjoys a small dramatic pause.
+
+### Important branch workflow note
+
+Do not develop directly on `gh-pages`. Keep source code and documentation on `main`, build from `main`, and treat `gh-pages` as generated deployment output. If you ever need to inspect the published files, use:
+
+```bash
+git fetch origin gh-pages
+git show origin/gh-pages:index.html
+```
+
+If deploying the same app under a different repository name, update the `base` value in `vite.config.ts` to match that repository's path.
 
 ## Things to check before publishing
 
