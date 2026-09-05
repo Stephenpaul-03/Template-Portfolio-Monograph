@@ -1,0 +1,7 @@
+/* The font stylesheet is loaded independently from the app CSS in index.html.
+   Keeping the remote request out of this bundle prevents it from delaying all
+   of the page's styles on a slow connection. */
+:root {
+  --font-display: "Instrument Sans", sans-serif;
+  --font-ui: "Space Grotesk", sans-serif;
+}

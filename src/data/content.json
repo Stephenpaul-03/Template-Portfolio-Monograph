@@ -1,0 +1,215 @@
+{
+  "site": {
+    "name": "Alex Morgan",
+    "brand": "AM",
+    "location": "Remote / Worldwide",
+    "timezone": "UTC",
+    "email": "hello@example.com",
+    "resume": "/resume.pdf",
+    "copyrightName": "Stephen Paul"
+  },
+
+  "navigation": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+
+  "hero": {
+    "eyebrow": [
+      "Designer & Researcher",
+      "Visual Storyteller"
+    ],
+    "name": [
+      "ALEX",
+      "MORGAN"
+    ],
+    "role": [
+      "Making sense of complexity.",
+      "Creating with intention."
+    ],
+    "portraitImage": "",
+    "portraitAlt": "Portrait placeholder",
+    "portraitTag": "Portrait / placeholder",
+    "portraitLabel": [
+      "Your portrait",
+      "goes here"
+    ],
+    "phrases": [
+      [
+        "Studying systems.",
+        "Understanding people."
+      ],
+      [
+        "Curious about",
+        "how things connect."
+      ],
+      [
+        "Researching ideas.",
+        "Improving experiences."
+      ],
+      [
+        "Learning today.",
+        "Making better tomorrow."
+      ]
+    ],
+    "scrollLabel": "Scroll to explore",
+    "resumeLabel": "Résumé",
+    "resumeFormat": "PDF"
+  },
+
+  "about": {
+    "eyebrow": "A little about me",
+    "index": "01 — About",
+    "statement": [
+      "I study ideas,",
+      "and the people behind them."
+    ],
+    "manifestoLabel": "(In short)",
+    "manifesto": "I care about careful observation, good evidence, and making complex things easier to understand.",
+    "disciplines": [
+      {
+        "number": "01",
+        "title": "Observation",
+        "text": "Look closely. Ask better questions. Notice what others miss."
+      },
+      {
+        "number": "02",
+        "title": "Research",
+        "text": "Gather context. Find useful patterns. Build from evidence."
+      },
+      {
+        "number": "03",
+        "title": "Communication",
+        "text": "Make complex ideas easier to understand and remember."
+      }
+    ]
+  },
+
+  "journey": {
+    "eyebrow": "Journey so far",
+    "title": [
+      "Learning through",
+      "every project."
+    ],
+    "timeline": [
+      {
+        "period": "2024 — Now",
+      "title": "Design Research",
+      "place": "Independent Practice",
+      "href": "#contact",
+      "text": "Developing a thoughtful practice grounded in research, observation, and making."
+      },
+      {
+        "period": "2023 — 2024",
+      "title": "Visual Systems",
+      "place": "Small Creative Studio",
+      "href": "#contact",
+      "text": "Exploring how structure, language, and visual rhythm shape an experience."
+      },
+      {
+        "period": "2021 — 2023",
+      "title": "Foundations",
+      "place": "Community Workshop",
+      "href": "#contact",
+      "text": "Building fundamentals through collaborative projects, critique, and experimentation."
+      }
+    ],
+    "education": {
+      "title": "Education",
+      "degree": "Design Research & Visual Communication",
+      "school": "Independent Study · 2024 — Present",
+      "note": "Exploring systems, storytelling, and the relationship between people and ideas."
+    }
+  },
+
+  "work": {
+    "eyebrow": "Selected work",
+    "countLabel": "03 selected works",
+    "projects": [
+      {
+        "title": "Signals & Noise",
+        "type": "Research Study",
+        "year": "2026",
+        "className": "project-neon",
+        "image": "",
+        "imageAlt": "Signals and noise research artwork",
+        "detail": "Exploring how people find clarity inside dense, fast-moving information.",
+        "role": "Literature review · Framing · Analysis",
+        "stack": "Design research · Synthesis"
+      },
+      {
+        "title": "Common Ground",
+        "type": "Field Study",
+        "year": "2025",
+        "className": "project-form",
+        "image": "",
+        "imageAlt": "Common ground field study artwork",
+        "detail": "Mapping shared needs, habits, and opportunities across a small community.",
+        "role": "Interviews · Mapping · Documentation",
+        "stack": "Fieldwork · Storytelling"
+      },
+      {
+        "title": "Working Notes",
+        "type": "Ongoing Archive",
+        "year": "2024",
+        "className": "project-lumen",
+        "image": "",
+        "imageAlt": "Working notes archive artwork",
+        "detail": "A visual archive of references, observations, questions, and useful fragments.",
+        "role": "Research · Documentation · Writing",
+        "stack": "Visual systems · Editorial"
+      }
+    ],
+    "viewLabel": "View study",
+    "caseStudyLabel": "Study note",
+    "contributionLabel": "My role",
+    "toolkitLabel": "Methods",
+    "requestLabel": "Ask about this work"
+  },
+
+  "contact": {
+    "eyebrow": "Let’s connect",
+    "title": "LET’S TALK",
+    "question": "Have a question, or just want to say hello?",
+    "credit": {
+      "label": "Made with love by Stephen Paul",
+      "href": "https://github.com/stephenpaul-03"
+    },
+    "availability": "Available for collaboration",
+    "discipline": "Design Research\nVisual Storytelling",
+    "rights": "All rights reserved",
+    "socials": [
+      {
+        "label": "LinkedIn",
+        "href": "#",
+        "icon": "linkedin"
+      },
+      {
+        "label": "Instagram",
+        "href": "#",
+        "icon": "instagram"
+      },
+      {
+        "label": "Facebook",
+        "href": "#",
+        "icon": "facebook"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:hello@example.com",
+        "icon": "mail"
+      }
+    ],
+    "backToTop": "Back to top"
+  }
+}

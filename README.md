@@ -1,4 +1,4 @@
-# Starter Template
+# Template Portfolio — Editorial Research
 
 A lightweight, modern starter template to kick off your next project quickly. Preconfigured with a solid development stack so you can focus on building instead of setup.
 
@@ -13,4 +13,3 @@ A lightweight, modern starter template to kick off your next project quickly. Pr
 ## Notes
 
 * Dark mode support comes preconfigured out of the box.
-

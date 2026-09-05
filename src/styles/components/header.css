@@ -1,0 +1,28 @@
+.nav { position: absolute; z-index: 20; inset: 0 0 auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; height: 80px; padding: 0 4vw; }
+.brand { display: flex; align-items: center; gap: 8px; font-weight: 600; letter-spacing: -.04em; }
+.brand svg { transition: transform .6s cubic-bezier(.2,.8,.2,1); }
+.brand:hover svg { transform: rotate(180deg); }
+.nav-links { display: flex; gap: 34px; font-size: 13px; }
+.nav-links a { position: relative; }
+.nav-links a::after { content: ""; position: absolute; inset: auto 0 -5px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .3s; }
+.nav-links a:hover::after { transform: scaleX(1); transform-origin: left; }
+.nav-actions { justify-self: end; display: flex; align-items: center; }
+.menu-button { display: none; border: 0; background: transparent; color: inherit; }
+
+.theme-button { position: relative; display: grid; place-items: center; width: 39px; height: 39px; overflow: hidden; border: 1px solid currentColor; border-radius: 50%; background: transparent; color: inherit; cursor: pointer; transition: background .3s, color .3s, transform .3s; }
+.theme-button:hover { transform: rotate(12deg); background: currentColor; }
+.theme-button:hover svg { color: #f1efe9; }
+.theme-button svg { position: absolute; transition: transform .45s cubic-bezier(.16,1,.3,1), opacity .3s; }
+.theme-sun { transform: translateY(0) rotate(0); opacity: 1; }
+.theme-moon { transform: translateY(32px) rotate(90deg); opacity: 0; }
+.dark .theme-sun { transform: translateY(-32px) rotate(-90deg); opacity: 0; }
+.dark .theme-moon { transform: translateY(0) rotate(0); opacity: 1; }
+
+@media (max-width: 700px) {
+  .nav { height: 66px; grid-template-columns: 1fr auto; padding: 0 20px; }
+  .nav-links { position: fixed; z-index: 10; inset: 0; flex-direction: column; justify-content: center; align-items: center; background: #f1efe9; color: #141414; font-size: 36px; opacity: 0; pointer-events: none; transition: opacity .3s; }
+  .dark .nav-links { background: #11110f; color: #eeeae1; }
+  .nav-links.is-open { opacity: 1; pointer-events: auto; }
+  .nav-actions { z-index: 11; }
+  .menu-button { display: block; padding: 8px; }
+}
