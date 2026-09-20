@@ -47,8 +47,8 @@ export function ContactFooter({ isRevealed }: ContactFooterProps) {
           const handle = social.label === "Email"
             ? site.email
             : social.label === "LinkedIn"
-              ? "/in/alex-morgan"
-              : "@alex.morgan"
+              ? "/in/john-doe"
+              : "@john.doe"
           return <a key={social.label} href={social.href} className="footer-social-card"><Icon /><strong><ArrowUpRight size={14} /> {social.label}</strong><span>{handle}</span></a>
         })}
         <a href={site.resume} download className="footer-social-card footer-resume-card">

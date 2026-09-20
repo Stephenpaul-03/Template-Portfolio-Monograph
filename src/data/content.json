@@ -4,7 +4,7 @@
     "brand": "JD",
     "location": "Remote / Worldwide",
     "timezone": "UTC",
-    "email": "hello@example.com",
+    "email": "john.doe@example.com",
     "resume": "/resume.pdf",
     "copyrightName": "Stephen Paul"
   },
@@ -183,7 +183,7 @@
     "question": "Have a question, or just want to say hello?",
     "credit": {
       "label": "Made with love by Stephen Paul",
-      "href": "https://github.com/stephenpaul-03"
+      "href": "#"
     },
     "availability": "Available for collaboration",
     "discipline": "Design Research\nVisual Storytelling",
@@ -206,7 +206,7 @@
       },
       {
         "label": "Email",
-        "href": "mailto:hello@example.com",
+        "href": "#",
         "icon": "mail"
       }
     ],
