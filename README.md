@@ -1,10 +1,10 @@
-# Alex Morgan - Monograph Portfolio
+# John Doe - Monograph Portfolio
 
 An expressive, single-page portfolio for a designer, researcher, and visual storyteller. It is built to make thoughtful work feel approachable: part case-study index, part personal introduction, part invitation to start a conversation.
 
 It is also deliberately a little theatrical. The page has oversized type, soft motion, a cursor glow, playful project artwork, a fixed contact footer, and a dark mode toggle. In other words: it takes its work seriously, but not itself.
 
-> This project started as a portfolio template and has been shaped into a complete monograph-style portfolio experience. The sample content describes Alex Morgan, but the structure is ready to be adapted to a real person, practice, studio, or wonderfully mysterious internet entity.
+> This project started as a portfolio template and has been shaped into a complete monograph-style portfolio experience. The sample content describes John Doe, but the structure is ready to be adapted to a real person, practice, studio, or wonderfully mysterious internet entity.
 
 ## What this is
 
@@ -316,4 +316,4 @@ The project uses React, Vite, TypeScript, Tailwind CSS, Lucide icons, and a smal
 
 No license has been specified yet. If this template will be shared, reused, or open-sourced, add a `LICENSE` file and update this section with the intended terms.
 
-Until then, treat the sample copy and identity as demo content, not as a legally binding invitation to impersonate Alex Morgan. The browser has enough identity crises already.
+Until then, treat the sample copy and identity as demo content, not as a legally binding invitation to impersonate John Doe. The browser has enough identity crises already.

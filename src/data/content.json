@@ -1,7 +1,7 @@
 {
   "site": {
-    "name": "Alex Morgan",
-    "brand": "AM",
+    "name": "John Doe",
+    "brand": "JD",
     "location": "Remote / Worldwide",
     "timezone": "UTC",
     "email": "hello@example.com",
@@ -30,8 +30,8 @@
       "Visual Storyteller"
     ],
     "name": [
-      "ALEX",
-      "MORGAN"
+      "JOHN",
+      "DOE"
     ],
     "role": [
       "Making sense of complexity.",
