@@ -189,7 +189,7 @@ Projects without an image use CSS-generated visual artwork. To add a new visual 
 
 ### Change social links
 
-The `contact.socials` array controls the social cards in the footer. Supported icon names currently include `linkedin`, `instagram`, `facebook`, and `mail`.
+The `contact.socials` array controls the social cards in the footer. Supported icon names currently include `linkedin`, `instagram`, `facebook`, and `mail`. The current social, email, and credit URLs are temporary `#` placeholders until real destinations are added.
 
 If you add a new network, update the `socialIcons` map and handle logic in `src/components/layout/contact-footer.tsx` as well.
 
@@ -299,7 +299,7 @@ If deploying the same app under a different repository name, update the `base` v
 
 ## Things to check before publishing
 
-- Replace the sample name, email, résumé, and social URLs.
+- Replace the placeholder email and social URLs before publishing.
 - Add a real portrait or intentionally keep the placeholder.
 - Replace the sample project studies with real work.
 - Check every link in the contact footer.
@@ -310,7 +310,7 @@ If deploying the same app under a different repository name, update the `base` v
 
 ## Credits
 
-The project uses React, Vite, TypeScript, Tailwind CSS, Lucide icons, and a small collection of custom CSS animations. The current footer credits Stephen Paul for the build and links to [his GitHub profile](https://github.com/stephenpaul-03).
+The project uses React, Vite, TypeScript, Tailwind CSS, Lucide icons, and a small collection of custom CSS animations. The portfolio identity is John Doe, while copyright and build credit remain with Stephen Paul. Footer links are intentionally left as temporary placeholders.
 
 ## License
 
